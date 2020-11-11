@@ -1,0 +1,27 @@
+---
+id: 102
+title: 快速幂
+date: 2020-11-06T03:01:11+00:00
+author: banana
+layout: revision
+guid: http://180.76.187.186/2020/11/06/100-revision-v1/
+permalink: /2020/11/06/100-revision-v1/
+---
+例题：
+
+<https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/>
+
+快速幂可以用位运算来实现
+
+n & 1 — 取n的二进制数最低位 , n & 1 =1 ，n为奇数，=0 为偶数 ,相当于 n % 2==0
+
+n >> 1 —右移1位, 去掉 n 的二进制数最低位 , 相当于 n / 2
+
+当 n 为偶数时
+
+x ^ n = x ^( n / 2 ) * x ^( n / 2 )  
+n >> 1 , n右移 1 位后，x 自己乘自己，因为二进制每位的差距是平方关系  
+当 n 为奇数时
+
+需要再乘以多出来的一次，即 x ^ n = x * x ^( n &#8211; 1 )  
+n &#8211; 1 , x 不更新，将 x 累乘到 ret
