@@ -1,11 +1,10 @@
 ---
 id: 78
-title: 'Go入门易踩之坑：local import &#8220;./link&#8221; in non-local package'
+title: 'Go入门易踩之坑：local import "./link" in non-local package'
 date: 2020-09-22T09:28:20+00:00
 author: banana
 layout: post
-guid: http://180.76.187.186/?p=78
-permalink: '/2020/09/22/go%e5%85%a5%e9%97%a8%e6%98%93%e8%b8%a9%e4%b9%8b%e5%9d%91%ef%bc%9alocal-import-link-in-non-local-package/'
+guid: /?p=78
 categories:
   - Uncategorized
 ---
