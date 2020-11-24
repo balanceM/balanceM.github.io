@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 name: 
 description: >- 
-  脑子不好，全靠笔记 (这个世界有太多乐趣)
+  Note and Get
 
 # twitter_username: jekyllrb
 github_username:  balanceM
